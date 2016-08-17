@@ -23,7 +23,7 @@ plot3 <- function() {
   with(powerTarget, plot(date,Sub_metering_1, xlab = "", ylab="Energy sub metering", type="l"))
   with(powerTarget, lines(date, Sub_metering_2, col = "red"))
   with(powerTarget, lines(date, Sub_metering_3, col = "blue"))
-  legend(x="topright", legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),col=c("black", "red", "blue"), lty=1:2, cex=0.8)
+  legend(x="topright", legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),col=c("black", "red", "blue"), lty=1)
 }
 
 ## Open PNG device, create plot saved to device, close device
